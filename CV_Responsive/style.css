@@ -1,0 +1,220 @@
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#34495e), to(#000000)) fixed;
+}
+div.container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+
+}
+div.title {
+    font-family: Orbitron;
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+div.title div.contactDetails {
+    text-align: center;
+    font-family: Jura;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    position: relative;
+}
+div.title div.contactDetails span#smallLeftLine {
+    top: -1px;
+    height: 20px;
+    border-left: 2px #00cccc solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.title div.contactDetails span#smallRightLine {
+    top: -1px;
+    height: 20px;
+    border-left: 2px #00cccc solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.content {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 15px;
+}
+div.objectives {
+    margin: 0 auto;
+    color: white;
+    font-family: Jura;
+    font-size: 20px;
+    width: 800px;
+    text-align: center;
+    padding-top: 20px;
+}
+div.bulletsHeadline {
+    color: white;
+    width: 850px;
+    font-family: Jura;
+    font-size: 20px;
+    margin-left: 33%;
+    margin-top: 35px;
+    position: relative;
+}
+div.bulletsHeadlineMiddle {
+    margin-top: 20px;
+    color: white;
+    width: 850px;
+    font-family: Jura;
+    font-size: 20px;
+    margin-left: 33%;
+    position: relative;
+}
+div.bulletsHeadlineMiddle2 {
+    margin-top: 20px;
+    color: white;
+    width: 800px;
+    font-family: Jura;
+    font-size: 20px;
+    margin-left: 33%;
+    position: relative;
+}
+div.bulletsHeadlineBottom {
+    margin-top: 20px;
+    color: white;
+    width: 850px;
+    font-family: Jura;
+    font-size: 20px;
+    margin-left: 33%;
+    position: relative;
+}
+div.bulletsHeadTechSkill {
+    margin-top: 20px;
+    color: white;
+    width: 850px;
+    font-family: Jura;
+    font-size: 20px;
+    margin-left: 33%;
+    position: relative;
+}
+div.bulletsHeadline div.bullet {
+    margin-top: 0px;
+    color: #00cccc;
+}
+
+div.bulletsHeadlineMiddle div.bullet {
+    margin-top: 0px;
+    color: #00cccc;
+}
+div.bulletsHeadlineMiddle2 div.bullet {
+    margin-top: 0px;
+    color: #00cccc;
+}
+
+div.bulletsHeadlineBottom div.bullet {
+    color: #00cccc;
+    margin-top: 0px;
+}
+div.bulletsHeadTechSkill div.bullet {
+    color: #00cccc;
+    margin-top: 0px;
+}
+span.lineColor {
+    color: white;
+    margin-left: 15px;
+}
+div.content div.verticalLine {
+    border-left: 2px solid #00cccc;
+    margin-left: 190px;
+    margin-top: 34px;
+    margin-bottom: 0px;
+    height: 65%;
+    position: absolute;
+}
+div.leftContainer{
+    position: relative;
+    width: 100px;
+    bottom: 430px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+    font-family: Jura;
+    font-size: 16px;
+    font-weight: 600;
+}
+.leftTop {
+    position: relative;
+    margin-top: -85px;
+}
+.leftBottom {
+    position: relative;
+    margin-top: 355px;
+}
+div.container div.bottomIcon {
+    width: 150px;
+    margin: -270px auto;
+    text-align: center;
+}
+
+span.download a {
+    margin: 0 auto;
+    color: white;
+    font-family: Jura;
+    text-decoration: none;
+}
+/**@media screen and (max-width: 360px) {
+    div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
+    div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
+    div.bulletsHeadline {margin:0 auto; font-size: 12px; padding-top: 20px;}
+    div.bulletsHeadlineMiddle {margin:0 auto; top: 15px; font-size: 12px;}
+    div.bulletsHeadlineMiddle2 {margin:0 auto; top: 30px; font-size: 12px;}
+    div.bulletsHeadlineBottom {margin:0 auto; top: 45px; font-size: 12px;}
+    div.bulletsHeadTechSkill {margin:0 auto; top: 55px; font-size: 12px;}
+    div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
+    span.print a img {margin-top: 50px; margin-left: 110px;}
+    span.download a img {margin-top: 50px; margin-left: 90px;}
+    div.content div.verticalLine {height: 0px;}
+}**/
+@media screen and (max-width: 375px) {
+    div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
+    div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
+    div.objectives {padding-top: 5px; font-size: 14px; width: 320px; margin-left: -10px;}
+    div.bulletsHeadline  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle2  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineBottom  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadTechSkill {font-size: 12px; width: 365px; text-align: left; margin-left: -25px; margin-bottom: -20px;}
+    div.content {padding-left: 25px; padding-bottom: 30px; width: 365px; text-align: left;}
+    div.content div.verticalLine {height: 0px;}
+    div.bulletsHeadlineMiddle b {font-size: 10px;}
+    div.bulletsHeadlineMiddle2 b {font-size: 10px;}
+    div.bulletsHeadlineBottom b {font-size: 10px;}
+    div.bulletsHeadline b {font-size: 10px;}
+    div.bulletsHeadline span.bulletHead {font-size: 10px;}
+    span.lineColor {margin-left: 8px;}
+    div.container div.bottomIcon {margin: -250px 80px auto;}
+    div.leftContainer {text-indent: 100%; white-space: nowrap; overflow: hidden;}
+}
+@media screen and (max-width: 740px) {
+    div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
+    div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
+    div.objectives {padding-top: 5px; font-size: 14px; width: 300px; margin-left: 5px;}
+    div.bulletsHeadline  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle2  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineBottom  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadTechSkill {font-size: 12px; width: 365px; text-align: left; margin-left: -25px; margin-bottom: -20px;}
+    div.content {padding-left: 25px; padding-bottom: 30px; width: 365px; text-align: left;}
+    div.content div.verticalLine {height: 0px;}
+    div.bulletsHeadlineMiddle b {font-size: 10px;}
+    div.bulletsHeadlineMiddle2 b {font-size: 10px;}
+    div.bulletsHeadlineBottom b {font-size: 10px;}
+    div.bulletsHeadline b {font-size: 10px;}
+    div.bulletsHeadline span.bulletHead {font-size: 10px;}
+    span.lineColor {margin-left: 8px;}
+    span.download a {margin: 0 30px auto;}
+    div.container div.bottomIcon {margin: -250px 80px auto;}
+    div.leftContainer {text-indent: 100%; white-space: nowrap; overflow: hidden;}
+}
